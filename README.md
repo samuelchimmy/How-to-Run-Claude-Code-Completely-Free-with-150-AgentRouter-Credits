@@ -54,18 +54,11 @@ Enter:
 
 ```
 %USERPROFILE%\.claude\settings.json
-```plaintext
-Open and edit the content.
-
-Paste the following configuration block into the file. Make sure to replace 
-
 ```
-your_agent_router_api_key
-```json
- with the API key you generated on the AgentRouter Token Console:
-code
-JSON
 
+Open and edit the content.Paste the following configuration block into the file. Make sure to replace your_agent_router_api_key with the API key you generated on the AgentRouter Token Console:
+
+JSON
 ```
 {
   "autoUpdatesChannel": "latest",
@@ -81,7 +74,8 @@ JSON
     "CLAUDE_CODE_SUBAGENT_MODEL": "claude-opus-4-8"
   }
 }
-```shell
+```
+
 Note: The model mappings inside the "env" object tell Claude Code to route all reasoning, sub-agents, and simple checks directly through AgentRouter's claude-opus-4-8 model.
 Save and close the file.
 
