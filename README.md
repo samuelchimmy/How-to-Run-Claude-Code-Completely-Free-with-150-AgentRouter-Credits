@@ -36,30 +36,30 @@ npm install -g @anthropic-ai/claude-code@latest
 Verify the installation by running:
 code
 
-Bash
-
-```
+```bash
 claude --version
-```plaintext
+```
 
 ### Step 2: Configure the Global Settings File
 
-Instead of dealing with temporary terminal environment variables that get wiped out when you close your window, the cleanest way to configure Claude Code is by utilizing its global settings file.
-Claude Code automatically monitors this file and reloads your settings live, meaning you can swap API keys and endpoints without ever interrupting your active chat sessions.
+Instead of dealing with temporary terminal environment variables that get wiped out when you close your window, the cleanest way to configure Claude Code is by utilizing its global settings file. Claude Code automatically monitors this file and reloads your settings live, meaning you can swap API keys and endpoints without ever interrupting your active chat sessions.
 
-Open the Claude settings file in your preferred text editor:
-On Windows (notepad preferrably):
+#### 1. Open the Claude settings file
+Open your terminal or Command Prompt and launch the settings file in your preferred text editor:
 
-Enter: 
+* **On Windows (using Notepad):**
+  ```cmd
+  notepad %USERPROFILE%\.claude\settings.json
+  ```
+* **On macOS / Linux (using Nano):**
+  ```bash
+  nano ~/.claude/settings.json
+  ```
 
-```
-%USERPROFILE%\.claude\settings.json
-```
+#### 2. Edit the configuration
+Paste the following configuration block into the file. Make sure to replace `your_agent_router_api_key` with the API key you generated on the AgentRouter Token Console:
 
-Open and edit the content.Paste the following configuration block into the file. Make sure to replace your_agent_router_api_key with the API key you generated on the AgentRouter Token Console:
-
-JSON
-```
+```json
 {
   "autoUpdatesChannel": "latest",
   "theme": "light",
@@ -76,20 +76,23 @@ JSON
 }
 ```
 
-Note: The model mappings inside the "env" object tell Claude Code to route all reasoning, sub-agents, and simple checks directly through AgentRouter's claude-opus-4-8 model.
+> **Note:** The model mappings inside the `"env"` object tell Claude Code to route all reasoning, sub-agents, and simple checks directly through AgentRouter's `claude-opus-4-8` model.
+
 Save and close the file.
 
 ### Step 3: Launch and Verify
-Now, navigate to your active coding project directory inside your terminal and launch Claude:
-code
-Bash
 
-```
+Now, navigate to your active coding project directory inside your terminal and launch Claude:
+
+```bash
 claude
-```shell
+```
+
 Once inside the active CLI prompt, check your connection state:
-code
-Bash
+
+```bash
+/status
+```
 
 ```
 /status
