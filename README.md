@@ -1,7 +1,7 @@
 ## Learn how to set up Anthropic's powerful CLI tool (Claude Code) for free using AgentRouter. Get $150 in registration credits.
 
 
-![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/8bg2y4lxc08ql715yi22.png)
+![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/v4fie66li8tccoq368e0.png)
 
 Claude Code is Anthropic's official CLI-based AI coding assistant. It can read your entire codebase, refactor files, run tests, and execute terminal commands. Normally, running it requires a paid Anthropic API key, but there is a way to run it entirely on free developer credits.
 
