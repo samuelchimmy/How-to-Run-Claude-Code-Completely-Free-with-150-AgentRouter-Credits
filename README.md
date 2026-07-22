@@ -13,8 +13,8 @@ Here is a simple, step-by-step setup guide to claim **$150 in free API credits**
 
 ### Full Disclosure
 This guide contains a referral link. By signing up via this link:
-* **You (the referee)** will receive **$150** in free API credits.
-* **I (the referer)** will receive **$25** in credits. 
+* **You (the referee)** will receive **$200** in free API credits.
+* **I (the referer)** will receive **$100** in credits. 
 
 You must sign up using a **GitHub account that is at least 3 years old with activities** to claim the promo.
 
