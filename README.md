@@ -1,4 +1,4 @@
-## Learn how to set up Anthropic's powerful CLI tool (Claude Code) for free using AgentRouter. Get $150 in registration credits.
+## Learn how to set up Anthropic's powerful CLI tool (Claude Code) for free using AgentRouter. Get $200 in registration credits.
 
 
 ![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/qxoq5ppscg4colxr3obk.png)
